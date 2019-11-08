@@ -7,6 +7,16 @@ class Dec2Hex
 
     public static void main(String args[])
     {
+	Scanner input = new Scanner(System.in);
+
+        String Args1 = input.nextLine();
+
+        if(Args1.length() == 0)
+        {
+        	System.out.println("ERROR There was no input inserted please try again");
+        	System.exit(1);
+        }
+
         if (args.length > 0) 
         {
             try 
@@ -34,6 +44,6 @@ class Dec2Hex
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-
+	System.out.println("Goodbye!!!");
     }
 }
