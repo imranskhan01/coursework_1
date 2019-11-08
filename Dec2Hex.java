@@ -13,7 +13,7 @@ class Dec2Hex
 
         if(Args1.length() == 0)
         {
-        	System.out.ptintln("ERROR There was no input inserted please try again");
+        	System.out.println("ERROR There was no input inserted please try again");
         	System.exit(1);
         }
 
